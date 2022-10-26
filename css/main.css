@@ -9,18 +9,39 @@
 	и можно изменять вручную*/
 }
 .background{
-  margin-bottom: 25px;
-  margin-top:30px;
+  min-height: 150px;
+  margin:0 auto;
+}
+.background-header{
+padding:40px 16px;
+
+}
+
+.header{
+  position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    opacity: 0.9;
+  margin-bottom: 125px;
 }
 nav {
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  color:black;
+  padding: 0 320px;
+  margin-top:49px;
+  margin-left:2px;
   display: flex;
   justify-content: space-around;
   
   
 }
-h1{
-	text-align: center;
-  padding-bottom: 20px;
+.main .main_header{
+  margin-bottom: 48px;
+	color:#4f4f4f;
+  font-size:64px;
 }
 a {
   color: #3a322d;
@@ -31,46 +52,111 @@ a:first-child {
   color: #c25613;
   text-decoration: underline;
 }
-
-.block1 {
-  width: 1224px;
-  background-color: #fff5f5;
-  height: 644px;
-  margin: 0 auto;
-}
-.phrase1 {
-  font-size: 35px;
-  text-align: left;
-}
-.phrase2{
-  font-size:20px;
-}
-.block1button{
-  width:150px;
+.maindovile{
+  display: block;
+  margin: auto;
 }
 
-.block1button .bg1{
-  border:10px solid #454545;
-  color:white;
-  background-color: #454545;
-  border-radius: 5px;
-  font-size:17px;
-  width: 150px;
+.Acquaintance{
+  margin-top: -155px;
+  min-height: 625px;
+  background-color:#fff5f5;
 }
-.block1IMG{
-  height:400px;
-  border:1px solid;
-  height:624px;
-  width:588px;
-  margin-top: -243px;
-margin-left: auto;
+.main{
+  position: relative;
+  margin:0 auto;
+  width:1224px;
   
 }
+.main .womandovile{
+  position:absolute;
+  left:636px;
+  top:0px;
+}
+.main .main_text{
+  margin-bottom: 50px;
+  font-size:20px;
+  color:#3a322d;
+}
+.main_btn .contact{
+  
+  height:50px;
+  width:155px;
+  color:white;
+  background-color:grey;
+  border-radius:4px;
+  border:0;
+}
+.four{
+  height:208px;
+  margin:0 auto;
+}
+.four .fourname{
+ margin: 0 auto;
+  width:1244px;
+  display:flex;
+  justify-content: space-between;
+}
+.aboutIsDovile{
+height:300px;
+background-color:#fff5f5 ;
+}
+.bio{
+  width:1244px;
+  margin:0 auto;
+}
+.bio_header_text{
+  text-align: center;
+  font-size:56px;
+  color:#454545;
+}
+.bio .bio_text{
+  margin-top:18px;
+  text-align: center;
+  font-size: 18px;
+}
 
+.services{
+  height:625px
+}
+.services_header{
+  margin-bottom: 48px;
+  margin-left: 670px;
+  font-size:64px;
+  color: #454545;
+}
+ .services_text{
+  margin-bottom: 58px;
+  margin-left: 670px; 
+  font-size: 18px;
+  color: #454545;
+}
 
-.block1phrase1{
-border:1px solid purple;
-width:496px;
-height:200px;
+.services_button .read{
+  margin-top: 80px;
+  margin-left: 670px;
+  height:50px;
+  width:155px;
+  color:white;
+  background-color:grey;
+  border-radius:4px;
+  border:0;
+  font-size: 16px;
+}
+.services_block{
+  position:relative;
+  margin:0 auto;
+  width:1244px;
+  height:625px;
+  background-color: white;
+}
 
+.services_image{
+  position: relative;
+  top: -378px;
+}
+
+.ready{
+  min-height: 912px;
+  background-color:#fff5f5;
 }
